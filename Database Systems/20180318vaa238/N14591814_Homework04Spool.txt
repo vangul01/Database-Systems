@@ -1,0 +1,109 @@
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Amanda Mackenzie                                                                
+Dave Mitty                                                                      
+Diane Fisher                                                                    
+Hannah Black                                                                    
+Hilary Mason                                                                    
+Jane Ross                                                                       
+John Smith                                                                      
+Joseph Young                                                                    
+Lily Springer                                                                   
+Penelope Nolan                                                                  
+Steven Lewis                                                                    
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Vanessa Gill                                                                    
+Virgini Wright                                                                  
+Zoe Smith                                                                       
+
+14 rows selected.
+
+
+PERSON_IDNUMBER                PERSON_NAME                                      
+------------------------------ ------------------------------                   
+102                            Diane Fisher                                     
+104                            Steven Lewis                                     
+105                            Jane Ross                                        
+108                            Zoe Smith                                        
+109                            Amanda Mackenzie                                 
+112                            Hannah Black                                     
+116                            Virgini Wright                                   
+
+7 rows selected.
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Diane Fisher                                                                    
+Jane Ross                                                                       
+John Smith                                                                      
+Joseph Young                                                                    
+Lily Springer                                                                   
+
+
+PERSON_NAME                                                                     
+------------------------------                                                  
+Amanda Mackenzie                                                                
+
+
+PERSON_NAME                    TEAM_NUMBER                                      
+------------------------------ -----------                                      
+Dave Mitty                               2                                      
+Diane Fisher                             3                                      
+Hannah Black                             1                                      
+Hilary Mason                             2                                      
+Jane Ross                                3                                      
+John Smith                               2                                      
+Joseph Young                             3                                      
+Lily Springer                            2                                      
+Penelope Nolan                           2                                      
+Steven Lewis                             2                                      
+Vanessa Gill                             3                                      
+
+PERSON_NAME                    TEAM_NUMBER                                      
+------------------------------ -----------                                      
+Virgini Wright                           3                                      
+Zoe Smith                                2                                      
+
+13 rows selected.
+
+
+PERSON_NAME                    PROJECT_NAME                                     
+------------------------------ ------------------------------                   
+Abigail Black                  Data Analytics                                   
+Adrian Butler                  Hardware development                             
+Amanda Mackenzie               System Optimization                              
+Jake Underwood                 Software supporting                              
+Jane Ross                      Web Development                                  
+
+
+PROJECT_NAME                   TEAM_NUMBER                                      
+------------------------------ -----------                                      
+Data Analytics                           3                                      
+Data mining                              1                                      
+Hardware development                     2                                      
+Platform maintaince                      1                                      
+Software development                     5                                      
+Software supporting                      2                                      
+System Optimization                      2                                      
+Web Development                          4                                      
+
+8 rows selected.
+
+
+TEAM_NAME                      HIGHEST_LEVEL                                    
+------------------------------ ------------------------------                   
+Communication                  3                                                
+Customer                       4                                                
+Development                    5                                                
+Maintaince                     2                                                
+Management                     4                                                
+Networking                     3                                                
+Support                        1                                                
+System                         5                                                
+
+8 rows selected.
+

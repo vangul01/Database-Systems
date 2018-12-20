@@ -1,0 +1,206 @@
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+101                            Abigail Black                                    
+102                            Diane Fisher                                     
+103                            Penelope Nolan                                   
+104                            Steven Lewis                                     
+105                            Jane Ross                                        
+106                            Bernadette Morgan                                
+107                            Lily Springer                                    
+108                            Zoe Smith                                        
+109                            Amanda Mackenzie                                 
+110                            Adrian Butler                                    
+111                            John Smith                                       
+
+IDNUMBER                       NAME                                             
+------------------------------ ------------------------------                   
+112                            Hannah Black                                     
+113                            Vanessa Gill                                     
+114                            Bella Clark                                      
+115                            Jake Underwood                                   
+116                            Virgini Wright                                   
+117                            Joseph Young                                     
+118                            Dorothy Miller                                   
+119                            Dave Mitty                                       
+120                            Hilary Mason                                     
+121                            Abigail Black                                    
+
+21 rows selected.
+
+
+FUNDINGID                      PROJECT                                          
+------------------------------ ------------------------------                   
+101                            Software development                             
+101                            Web Development                                  
+102                            Data mining                                      
+102                            Software supporting                              
+103                            System Optimization                              
+103                            Web Development                                  
+104                            Platform maintaince                              
+105                            Software development                             
+105                            Software supporting                              
+
+9 rows selected.
+
+
+PROJECT_NAME                                                                    
+------------------------------                                                  
+Data Analytics                                                                  
+Hardware development                                                            
+
+
+ENGINEER_NAME                                                                   
+------------------------------                                                  
+Dave Mitty                                                                      
+Diane Fisher                                                                    
+Hannah Black                                                                    
+Hilary Mason                                                                    
+Jane Ross                                                                       
+John Smith                                                                      
+Joseph Young                                                                    
+Lily Springer                                                                   
+Penelope Nolan                                                                  
+Steven Lewis                                                                    
+Vanessa Gill                                                                    
+
+ENGINEER_NAME                                                                   
+------------------------------                                                  
+Virgini Wright                                                                  
+Zoe Smith                                                                       
+
+13 rows selected.
+
+
+PROJECT_NAME                                                                    
+------------------------------                                                  
+Data Analytics                                                                  
+Software development                                                            
+System Optimization                                                             
+
+
+ENGINEER_ID                    MENTOR_ID                                        
+------------------------------ ------------------------------                   
+103                            102                                              
+104                            102                                              
+108                            107                                              
+109                            105                                              
+112                            107                                              
+113                            105                                              
+113                            109                                              
+116                            107                                              
+116                            112                                              
+119                            107                                              
+119                            112                                              
+
+ENGINEER_ID                    MENTOR_ID                                        
+------------------------------ ------------------------------                   
+119                            116                                              
+120                            107                                              
+120                            112                                              
+120                            116                                              
+
+15 rows selected.
+
+
+View created.
+
+
+PROJECT_NAME                   ROOM_LAYER                                       
+------------------------------ ------------------------------                   
+Data Analytics                 3                                                
+Data mining                    1                                                
+Hardware development           2                                                
+Platform maintaince            1                                                
+Software development           3                                                
+Software supporting            2                                                
+System Optimization            3                                                
+Web Development                3                                                
+
+8 rows selected.
+
+SET Room_Layer = '2'
+    *
+ERROR at line 2:
+ORA-01779: cannot modify a column which maps to a non key-preserved table 
+
+
+
+Trigger created.
+
+
+1 row updated.
+
+
+PROJECT_NAME                   ROOM_LAYER                                       
+------------------------------ ------------------------------                   
+Data Analytics                 3                                                
+Data mining                    1                                                
+Hardware development           2                                                
+Platform maintaince            1                                                
+Software development           2                                                
+Software supporting            2                                                
+System Optimization            3                                                
+Web Development                3                                                
+
+8 rows selected.
+
+
+IDNUMBER                       DEGREE                                           
+------------------------------ ------------------------------                   
+ROOMLAYER                                                                       
+------------------------------                                                  
+101                            2                                                
+3                                                                               
+                                                                                
+102                            1                                                
+2                                                                               
+                                                                                
+104                            1                                                
+2                                                                               
+                                                                                
+
+IDNUMBER                       DEGREE                                           
+------------------------------ ------------------------------                   
+ROOMLAYER                                                                       
+------------------------------                                                  
+105                            2                                                
+3                                                                               
+                                                                                
+106                            3                                                
+1                                                                               
+                                                                                
+108                            3                                                
+1                                                                               
+                                                                                
+
+IDNUMBER                       DEGREE                                           
+------------------------------ ------------------------------                   
+ROOMLAYER                                                                       
+------------------------------                                                  
+109                            2                                                
+3                                                                               
+                                                                                
+110                            2                                                
+2                                                                               
+                                                                                
+112                            1                                                
+3                                                                               
+                                                                                
+
+IDNUMBER                       DEGREE                                           
+------------------------------ ------------------------------                   
+ROOMLAYER                                                                       
+------------------------------                                                  
+115                            2                                                
+2                                                                               
+                                                                                
+116                            3                                                
+2                                                                               
+                                                                                
+118                            1                                                
+1                                                                               
+                                                                                
+
+12 rows selected.
+

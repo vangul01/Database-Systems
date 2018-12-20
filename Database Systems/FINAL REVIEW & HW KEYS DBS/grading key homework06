@@ -1,0 +1,50 @@
+grading key homework05
+
+For all questions, you need to provide detailed steps with justifications, which is stated on the assignment instructions that you need to show all your steps
+
+1. total 20 pts
+-4 if you only got one key
+-4 if wrong key
+－3 does not follow the heuristic in EmToPrHoSkLoRo
+－4 do extra that does not ask for 
+-10 if only have answers with no procedures
+-5 no proof of not in bcnf
+
+2. total 20 pts
+ -10 if no proofs 
+ -15  incorrect 
+
+3. total 20 pts
+-6 no justifications including the proofs that some FDs cannot be reduced (-4).
+-10 incorrect answer with some procedures 
+-12 if just provides answers with no steps at all
+-15 incorrect answer with wrong/no procedures
+-4 for one wrong FD
+－4 do extra that does not ask for 
+
+
+4. total 25 pts
+-10 if no proofs including the proofs that some FDs cannot be reduced (-5)
+-15 incorrect answer with some procedures 
+-18 if just provides answers with no steps at all
+-20 incorrect answer with wrong/no procedures
+-4 for one wrong FD
+-4 do extra that does not ask for 
+
+5. total 25 pts
+ -5 does not remove redundant table
+ -10 no global key 
+ -5 calculate wrong global key
+ -5 missing the procedures of calculating the global key
+ -20 for only have answers/ did not do what the question is asking for
+ -5 each incorrect table
+ 
+6. total 25 pts
+ -5 each incorrect table
+ -10 no global key 
+ -5 calculate wrong global key
+ -5 missing the procedures of calculating the global key
+ -20 for only have answers/ did not do what the question is asking for
+
+
+and there are minor adjustments for points deduction according to the specifics of answers

@@ -1,0 +1,5 @@
+1. Missing/Incorrect/extra annotations, 1 points each, up to 5 points maximum
+2. ISA relation should be T or T/O (-2)
+3. Incorrectly represent Many-to-One or Many-to-Many relationship (-4)
+4. Incorrect attributes, bolding attributes, wrong underlining, etc (-2)
+5. Entity mistakes(-4)

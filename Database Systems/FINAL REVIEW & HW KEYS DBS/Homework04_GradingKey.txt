@@ -1,0 +1,10 @@
+Grading Key for Homework 04:
+
+Total points: 70
+10 points for each question.
+
+-5 points for wrong SQL query even if you get the correct answer.(hard-code)
+-5 points for wrong answer or partial answer.
+-2 points for wrong order.
+-2 points for wrong column names.
+-3 points for typo or format which leads to in-executable script.

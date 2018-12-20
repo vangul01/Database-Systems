@@ -1,0 +1,9 @@
+Only the Chef with higher level can be the mentor of the Chef with lower level
+
+Customer can have at most 10 Orders
+
+Cooks is a binary many to one relation from Dish to Chef
+
+Bill of Table is computed as the sum of the product of the price of each dish order by the table times the number of that dish being ordered.
+
+Person must be in one subclass of Manager, Server, or Chef.

@@ -1,0 +1,24 @@
+Annotations for ER Diagram
+
+Known Constraints:
+Person 
+	attribute Name
+Manager 
+	attributes Department and Title
+Chef 
+	attribute Level
+Dish 
+	attribute Price
+
+Other Annotations: 
+Evaluates 
+	attribute Grade represents quality of service
+	attributed Grade is more to Serves side
+Customer 
+	attribute Order can be at most 10 orders
+
+Cooks is a partial function from Dish to Chef
+	Number attribute is more to dish side
+	Number is derived by how many copies of Type of dish per Table Number
+Table
+	Bill is derived by sum of product of Price of each Dish ordered by Table times Number of Dish 	being ordered

@@ -1,0 +1,20 @@
+Annotations
+
+Manager's Department and Title are never null
+
+Name of Person is never null
+
+Level of Chef is never null
+
+Only the Chef with higher level can be the mentor of the Chef with lower level
+
+Customer can have at most 10 orders
+
+Cooks is binary many-to-one relation from Dish to Chef. Each dish is cooked by exactly one chef.
+
+Bill of Table is derived, which would be the sum of the product of the price of each dish order by the table times the number of that dish being ordered.
+
+Price of Dishes is never null
+
+The serving quality of each service is reviewed by exactly one manager.
+
